@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/weatherCfgProject/static/css/main.798410b3.css",
+    "main.js": "/weatherCfgProject/static/js/main.740ad3d9.js",
+    "static/js/787.dfd922a2.chunk.js": "/weatherCfgProject/static/js/787.dfd922a2.chunk.js",
+    "static/media/sunset-river.jpg": "/weatherCfgProject/static/media/sunset-river.3c2d3c8212db284728a5.jpg",
+    "static/media/mountains.jpg": "/weatherCfgProject/static/media/mountains.aa503336890e9f364143.jpg",
+    "index.html": "/weatherCfgProject/index.html",
+    "main.798410b3.css.map": "/weatherCfgProject/static/css/main.798410b3.css.map",
+    "main.740ad3d9.js.map": "/weatherCfgProject/static/js/main.740ad3d9.js.map",
+    "787.dfd922a2.chunk.js.map": "/weatherCfgProject/static/js/787.dfd922a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.798410b3.css",
+    "static/js/main.740ad3d9.js"
+  ]
+}
