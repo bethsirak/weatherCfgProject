@@ -1,0 +1,110 @@
+
+
+layout {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: fantasy
+}
+
+.app {
+  background-image: url("./img/mountains.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s;
+}
+
+.app.sunset {
+  background-image: url("./img/sunset-river.jpg");
+ 
+}
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+.searchBar {
+  width: 100%;
+  margin: 0 0 75px 
+}
+
+.searchBar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+background-color: rgb(240, 233, 233,0.70);
+border-radius:0px 0px 16px 16px ;
+margin-top: -25px;
+
+box-shadow: 0px 5px rgb(201, 201, 201, 0.558);
+color: #313131;
+font-size: 20px;
+
+transition: 0.4s ease;
+
+}
+
+.searchBar:focus {
+  background-color: rgba(223, 222, 217);
+}
+
+.locationBox .location{
+color: beige;
+font-size: 50px;
+font-weight: 250;
+text-align: center;
+text-shadow: 3px 3px rgb(201, 201, 201, 0.558);
+}
+
+.locationBox .date{
+  color: rgb(245, 220, 244);
+  font-size: 25px;
+  font-weight: 250;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 1px 1px  rgba(201, 201, 201, 0.558);
+}
+
+.weatherBox{
+text-align: center;
+
+}
+.weatherBox .temp{
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(236, 243, 243, 0.222);
+  border-radius: 15px;
+ 
+  border: 110px; color: rgb(18, 103, 188);
+  
+  padding: 15px 25px;
+  color: rgb(245, 220, 244);
+  font-size: 100px;
+  font-weight: 250;
+  text-shadow: 1px 1px  rgba(201, 201, 201, 0.558);
+  text-align: center;
+  box-shadow: 5px 5px rgba(91, 89, 89, 0.558);
+}
+
+.weatherBox .weather{
+  color: rgb(245, 220, 244);
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 3px 3px  rgba(201, 201, 201, 0.558);
+}
+
+.weatherBox .tempfeel{
+  color: rgb(245, 220, 244);
+  font-size: 25px;
+  font-weight: 250;
+  text-shadow: 1px 1px  rgba(201, 201, 201, 0.558);
+}
